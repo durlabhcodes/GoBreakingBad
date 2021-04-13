@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t sharmadurlabh/GoBreakingBad .
+  - docker build -t sharmadurlabh/gobreakingbad .
 
 script:
-  - docker run sharmadurlabh/GoBreakingBad go test
+  - docker run sharmadurlabh/gobreakingbad go test
