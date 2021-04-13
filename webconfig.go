@@ -24,5 +24,5 @@ func setupRoutes(router *mux.Router) {
 }
 
 func getApiVersion() string {
-	return "v2"
+	return "v1"
 }
