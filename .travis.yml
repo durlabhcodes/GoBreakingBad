@@ -6,4 +6,4 @@ before_install:
   - docker build -t sharmadurlabh/gobreakingbad .
 
 script:
-  - docker run sharmadurlabh/gobreakingbad go test
+  - docker run sharmadurlabh/gobreakingbad go test -v -vet=off .
